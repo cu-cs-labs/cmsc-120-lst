@@ -1,0 +1,26 @@
+<!-- The project's one library, JavaFX, which Img.java draws with, and Java
+     25. The editor reads this when the folder opens and fetches JavaFX for
+     the computer it is on. Nothing here is yours to change. -->
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cmsc120</groupId>
+  <artifactId>lst</artifactId>
+  <version>1</version>
+
+  <properties>
+    <maven.compiler.release>25</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-graphics</artifactId>
+      <version>25.0.4</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+  </build>
+</project>
